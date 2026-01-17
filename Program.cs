@@ -408,6 +408,8 @@ namespace TimeoutCommand
         private static void ShowVersion()
         {
             Console.WriteLine("timeout (C# implementation) 1.0.0");
+            Console.WriteLine("Copyright (C) 2026 Stephen Gennard <stephen@gennard.net>");
+            Console.WriteLine("GitHub: https://github.com/spgennard/cs-timeout");
         }
     }
 

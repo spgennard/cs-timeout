@@ -10,6 +10,13 @@
     <RuntimeIdentifier Condition="$([MSBuild]::IsOSPlatform('OSX'))">osx-arm64</RuntimeIdentifier>
     <RuntimeIdentifier Condition="$([MSBuild]::IsOSPlatform('Linux'))">linux-x64</RuntimeIdentifier>
     <RuntimeIdentifier Condition="$([MSBuild]::IsOSPlatform('Windows'))">win-x64</RuntimeIdentifier>
+    <Authors>Stephen Gennard</Authors>
+    <Company>Stephen Gennard</Company>
+    <Copyright>Copyright © 2026 Stephen Gennard</Copyright>
+    <Description>A C# implementation of the GNU timeout command</Description>
+    <PackageProjectUrl>https://github.com/spgennard/cs-timeout</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/spgennard/cs-timeout</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">

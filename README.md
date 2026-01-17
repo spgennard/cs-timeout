@@ -155,3 +155,13 @@ dotnet publish -c Release -r win-x64 --self-contained true -p:PublishTrimmed=tru
 ```
 
 The resulting executable will be in `bin/Release/net8.0/{runtime}/publish/timeout` (or `timeout.exe` on Windows).
+
+## Author
+
+**Stephen Gennard**  
+Email: stephen@gennard.net  
+GitHub: https://github.com/spgennard/cs-timeout
+
+## License
+
+This project is open source. See the repository for license details.

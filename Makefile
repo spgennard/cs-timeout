@@ -53,9 +53,9 @@ install: publish
 	if [ ! -f "$$EXECUTABLE_PATH" ]; then \
 		echo "Executable not found. Run 'make publish' first."; exit 1; \
 	fi; \
-	sudo cp "$$EXECUTABLE_PATH" /usr/local/bin/timeout-cs; \
-	sudo chmod +x /usr/local/bin/timeout-cs; \
-	echo "Installed as 'timeout-cs' in /usr/local/bin"
+	sudo cp "$$EXECUTABLE_PATH" /usr/local/bin/timeout; \
+	sudo chmod +x /usr/local/bin/timeout; \
+	echo "Installed as 'timeout' in /usr/local/bin"
 
 # Install to ~/bin
 install-user: publish
@@ -76,9 +76,9 @@ install-user: publish
 		echo "Executable not found. Run 'make publish' first."; exit 1; \
 	fi; \
 	mkdir -p ~/bin; \
-	cp "$$EXECUTABLE_PATH" ~/bin/timeout-cs; \
-	chmod +x ~/bin/timeout-cs; \
-	echo "Installed as 'timeout-cs' in ~/bin"
+	cp "$$EXECUTABLE_PATH" ~/bin/timeout; \
+	chmod +x ~/bin/timeout; \
+	echo "Installed as 'timeout' in ~/bin"
 
 # Show help
 help:

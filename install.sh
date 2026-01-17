@@ -105,18 +105,18 @@ read -p "Choose option (1/2/3): " choice
 case $choice in
     1)
         echo "Installing to /usr/local/bin..."
-        sudo cp "$EXECUTABLE_PATH" /usr/local/bin/timeout-cs
-        sudo chmod +x /usr/local/bin/timeout-cs
-        echo "✅ Installed as 'timeout-cs' in /usr/local/bin"
-        echo "You can now use: timeout-cs 10s some-command"
+        sudo cp "$EXECUTABLE_PATH" /usr/local/bin/timeout
+        sudo chmod +x /usr/local/bin/timeout
+        echo "✅ Installed as 'timeout' in /usr/local/bin"
+        echo "You can now use: timeout 10s some-command"
         ;;
     2)
         mkdir -p ~/bin
-        cp "$EXECUTABLE_PATH" ~/bin/timeout-cs
-        chmod +x ~/bin/timeout-cs
-        echo "✅ Installed as 'timeout-cs' in ~/bin"
+        cp "$EXECUTABLE_PATH" ~/bin/timeout
+        chmod +x ~/bin/timeout
+        echo "✅ Installed as 'timeout' in ~/bin"
         echo "Make sure ~/bin is in your PATH"
-        echo "You can now use: timeout-cs 10s some-command"
+        echo "You can now use: timeout 10s some-command"
         ;;
     3)
         echo "Installation skipped."
