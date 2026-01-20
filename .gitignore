@@ -19,6 +19,9 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+# Release artifacts
+releases/
+
 # Visual Studio files
 .vs/
 *.userprefs

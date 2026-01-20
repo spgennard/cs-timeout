@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "description": "C# implementation of the GNU timeout command",
+    "homepage": "https://github.com/spgennard/cs-timeout",
+    "license": "MIT",
+    "url": "https://github.com/spgennard/cs-timeout/releases/download/v1.0.0/timeout-1.0.0-win-x64.zip",
+    "hash": "REPLACE_WITH_WINDOWS_SHA256",
+    "bin": "timeout.exe",
+    "checkver": {
+        "github": "https://github.com/spgennard/cs-timeout"
+    },
+    "autoupdate": {
+        "url": "https://github.com/spgennard/cs-timeout/releases/download/v$version/timeout-$version-win-x64.zip"
+    }
+}
